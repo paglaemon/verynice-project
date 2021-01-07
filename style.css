@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------------ navbar section------------------- */
+.my-color{
+    background-color: #fff;
+}
+.logo{
+    width: 50px;
+}
+#nav-bar ul li{
+    padding: 0 20px;
+}
+#nav-bar ul li a{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+    padding: 5px 0;
+}
+
+/*-----------------------top banner-----------------------*/
+#banner{
+  background-image: url(photo/banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+ 
+  
+}
+#banner ::after{
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    background-color: black;
+    opacity: .1;
+    z-index: -1;
+}
+.banner h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.banner p{
+    color: white;
+    padding: 25px 0;  
+}
+.btn a{
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    padding: 8px 20px;
+    border: .2px solid  rgb(56, 223, 64);
+    text-decoration: none;
+   
+}
+.btn a:hover{
+    transition: .5s;
+    background-color: rgb(56, 223, 64);
+    color: black;
+}
+/*-----------------------top banner end-----------------------*/
+
+
+#help-service{
+    max-width: 900px;
+}
+#help-service h1{
+    font-size: 30px;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+.card-items{
+    border: 3px solid whitesmoke;
+    transition: .3s;
+    margin-bottom: 15px;
+}
+.card-items:hover{
+    border: 3px solid gray;
+}
+/*-----------------------help service end-----------------------*/
+.title{
+    padding-bottom: 40px ;
+    
+}
+
+#business-improvement {
+    padding: 100px 0;
+    max-width: 900px;
+}
+#business-improvement img{
+    width: 380px;
+}
+#business-improvement ul li{
+    color: hsl(0, 0%, 30%);
+    list-style: none;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    padding: 18px 0;
+}
+/*-----------------------about end-----------------------*/
+#team{
+    background-color: #f2f6fa;
+    padding: 60px 0;
+}
+.card-team {
+    max-width: 900px;
+}
+.card{
+    padding-top: 30px;
+}
+#team .card-deck img{
+    width: 80px;
+    border-radius: 50%;
+}
+#team .heading h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.card-title2 h3{
+    color: rgb(21, 177, 230);
+}
+.card-title2 p{
+    padding-bottom: 15px;
+    font-weight: 700;
+    color: hsl(0, 0%, 20%);
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#team .card-footer img{
+    padding-top: 10px;
+    width: 35px;
+}
+
+/*-------------team card end------------*/
+#latest-news{
+    background-color: whitesmoke;
+    padding: 50px 0;
+}
+#latest-news .heading h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+#latest-news img{
+    width: 300px;
+}
+#latest-news .card-body h5{
+    font-size: 15px;
+    color: rgb(21, 177, 230);
+}
+#latest-news .card-text{
+    font-size: 25px;
+}
+#latest-news button{
+    padding: 3px 10px;
+    border-radius: 23px;
+}
+#latest-news .card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+/*-------------latest news end------------*/
+
+#talk-about{
+    padding: 150px 0;
+    background-color: #6ec1e4;
+}
+#talk-about h1 {
+    color: #fff;
+}
+#talk-about p {
+    color: #fff;
+    padding-bottom:50px ;
+}
+#talk-about a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 150px;
+    padding: 8px 20px;
+    border: 3px solid white;
+    text-decoration: none;
+   
+}
+
+
+
+
+
+
+
+
+#footer{
+    background-color: #fff;
+    padding: 70px 0;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 30%);
+    
+  
+}
+#footer ul li a:hover{
+   color: black;
+   border-bottom: 1px solid black;
+  
+}
+#footer ul li {
+    color: hsl(0, 0%, 30%);
+    list-style: none;
+    padding: 10px 0;
+    
+}
+#footer h1{
+    padding-bottom: 30px;
+}
+#footer p{
+    color: hsl(0, 0%, 30%);
+}
+#footer h5{
+    padding-bottom: 30px;
+    padding-left: 27px;
+}
+.list-column{
+    padding-bottom: 20px;
+   
+}
+#footer img{
+    width: 60px;
+}
